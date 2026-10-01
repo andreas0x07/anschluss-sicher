@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: anschluss-sicher
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
+      - org.springframework.boot.hibernate.autoconfigure.HibernateJpaAutoConfiguration
+
+server:
+  port: 8080
